@@ -26,7 +26,7 @@
     </rules>
   </element>
 
-  <element name="Companion Mount" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_COMPANION_MOUNT">
+  <element name="Companion Mount" type="Archetype Feature" source="Homebrew: Fools Gold" id="ID_HOMEBREW_FEATURE_COMPANION_MOUNT">
     <description>
       <p><em>2nd-level Companion Mount feature</em></p>
       <p>you form a bond with a wild beast that becomes your companion mount. Your mount can take the form of any beast, but it uses the companion mount stat block, possibly altering its physical characteristics beyond the norms for a creature of its kind. You choose how your mount attacks and what kind of damage this attack deals when you bond with it. For example, if your mount is a sharkhound, its attack could be a bite that does piercing damage, but if you decide it is a massive fluffy rabbit, its attack could instead be a kick that does bludgeoning damage</p>
@@ -39,21 +39,21 @@
     </description>
   <sheet><description>You can now choose a companion mount, using it for combat and traversal</description></sheet></element>
 
-  <element name="Twin Beast Shape" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_TWIN_BEAST_SHAPE">
+  <element name="Twin Beast Shape" type="Archetype Feature" source="Homebrew: Fools Gold" id="ID_HOMEBREW_FEATURE_TWIN_BEAST_SHAPE">
     <description>
       <p><em>2nd-level Twin Beast Shape feature</em></p>
       <p>Your bond with your companion mount allows you to wild shape into a form that matches it, using the same statistics as your companion mount. When you wild shape in this way, you ignore the CR restrictions of the Beast Shapes table.</p>
     </description>
   <sheet><description>You can bond with your companion mount, assuming its form.</description></sheet></element>
 
-  <element name="Companion Casting" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_COMPANION_CASTING">
+  <element name="Companion Casting" type="Archetype Feature" source="Homebrew: Fools Gold" id="ID_HOMEBREW_FEATURE_COMPANION_CASTING">
     <description>
       <p><em>6th-level Companion Casting feature</em></p>
       <p>Your companion mount’s attacks become magical for the purpose of overcoming resistance or immunity to nonmagical attacks and damage. Additionally, while you are within 100 feet of your companion mount, you gain the ability to channel any spells you cast through them, treating your mount as the point of origin for purposes of determining your spell’s range. When you are affected by a spell with a range of self, as long as you are mounted on your companion mount, you are both targeted by the spell.</p>
     </description>
   <sheet><description>Your magic flows through your companion like a raging river.</description></sheet></element>
 
-  <element name="Entwined Evolution" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_ENTWINED_EVOLUTION">
+  <element name="Entwined Evolution" type="Archetype Feature" source="Homebrew: Fools Gold" id="ID_HOMEBREW_FEATURE_ENTWINED_EVOLUTION">
     <description>
       <p><em>10th-level Entwined Evolution feature</em></p>
       <p>Choose one of the following traits to add to your companion mount’s stat block.</p>
@@ -65,10 +65,11 @@
     </description>
   <sheet><description>You and your companion mount learn new secrets from nature.</description></sheet></element>
 
-  <element name="Beast Stride" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_BEAST_STRIDE">
+  <element name="Beast Stride" type="Archetype Feature" source="Homebrew: Fools Gold" id="ID_HOMEBREW_FEATURE_BEAST_STRIDE">
     <description>
       <p><em>14th-level Beast Stride feature</em></p>
       <p>While you are within 1 mile of each other, you can communicate telepathically with each other. Additionally, while your mount is within 600 feet of you, you can teleport onto its back or have it teleport to your side as a bonus action. Once you’ve used this ability, you can’t use it again until you finish a short or long rest.</p>
     </description>
   <sheet><description>The bond between you and your mount is exceptionally strong, intertwining your souls.</description></sheet></element>
+
 </elements>
