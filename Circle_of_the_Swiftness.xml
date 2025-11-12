@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Circle of the Swiftness Druid</name>
+        <update version="1.0">
+            <file name="Circle_of_the_Swiftness.xml" url="https://raw.githubusercontent.com/Pandablockhead/DnD5e-Aurora-Builder/refs/heads/main/Circle_of_the_Swiftness.xml" />
+        </update>
+    </info>
+
+  <element name="Circle of the Swiftness" type="Sub_Class" source="Homebrew: Fools Gold" id="ID_HOMEBREW_SUB_CLASS_CIRCLE_OF_THE_SWIFTNESS">
+    <supports>Druid Circle</supports>
+    <description>
+      <p>The Circle of Swiftness was an ancient order of druids that was thought to be lost to time until a powerful druid named Gothi, the last surviving member of this circle, shared its teachings with other druids of Ambria and slowly revived the circle’s popularity. The circle’s teachings aim to deepen a druid’s bond with an animal companion by fighting together as one to protect the balance of nature.</p>
+      <div element="ID_HOMEBREW_FEATURE_COMPANION_MOUNT" />
+      <div element="ID_HOMEBREW_FEATURE_TWIN_BEAST_SHAPE" />
+      <div element="ID_HOMEBREW_FEATURE_COMPANION_CASTING" />
+      <div element="ID_HOMEBREW_FEATURE_ENTWINED_EVOLUTION" />
+      <div element="ID_HOMEBREW_FEATURE_BEAST_STRIDE" />
+    </description>
+    <rules>
+            <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_COMPANION_MOUNT" level="2" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_TWIN_BEAST_SHAPE" level="2" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_COMPANION_CASTING" level="6" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_ENTWINED_EVOLUTION" level="10" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_BEAST_STRIDE" level="14" />      
+    </rules>
+  </element>
+
+  <element name="Companion Mount" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_COMPANION_MOUNT">
+    <description>
+      <p><em>2nd-level Companion Mount feature</em></p>
+      <p>you form a bond with a wild beast that becomes your companion mount. Your mount can take the form of any beast, but it uses the companion mount stat block, possibly altering its physical characteristics beyond the norms for a creature of its kind. You choose how your mount attacks and what kind of damage this attack deals when you bond with it. For example, if your mount is a sharkhound, its attack could be a bite that does piercing damage, but if you decide it is a massive fluffy rabbit, its attack could instead be a kick that does bludgeoning damage</p>
+      <p>Your mount is friendly to you and your companions, and it has its own distinct personality.</p>
+      <p>In combat, your mount shares your initiative count and takes its turn directly after yours, though it can only take the Dodge action and move unless you use your bonus action to command it to take a different action, such as attacking, hiding, or interacting with an object. If you are incapacitated, your mount can take any action of its choice, not just Dodge. As part of your movement each turn, you can spend half your movement speed to either mount or dismount your mount. While you are mounted, your companion mount acts on the same turn in initiative as you and can only move unless you direct it to take another action. You fall off your mount if you are incapacitated or knocked prone.</p>
+      <p>While you are mounted on your companion mount, you can redirect any attacks made against your mount to target you instead, and you can use your reaction to grant your mount advantage on Strength and Dexterity saving throws. Your mount can make death saving throws. If your mount dies, you can bond with a new companion mount by performing an eight-hour ritual to commune with the spirit of another beast. Mounts can also be resurrected using magic such as revivify or</p>
+        <ul>
+            <li><strong>Resurrection</strong> Cant have more than one companion mount.If you form a bond with a new companion mount, your bond with your current companion mount is broken.</li>
+        </ul>
+    </description>
+  <sheet><description>You can now choose a companion mount, using it for combat and traversal</description></sheet></element>
+
+  <element name="Twin Beast Shape" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_TWIN_BEAST_SHAPE">
+    <description>
+      <p><em>2nd-level Twin Beast Shape feature</em></p>
+      <p>Your bond with your companion mount allows you to wild shape into a form that matches it, using the same statistics as your companion mount. When you wild shape in this way, you ignore the CR restrictions of the Beast Shapes table.</p>
+    </description>
+  <sheet><description>You can bond with your companion mount, assuming its form.</description></sheet></element>
+
+  <element name="Companion Casting" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_COMPANION_CASTING">
+    <description>
+      <p><em>6th-level Companion Casting feature</em></p>
+      <p>Your companion mount’s attacks become magical for the purpose of overcoming resistance or immunity to nonmagical attacks and damage. Additionally, while you are within 100 feet of your companion mount, you gain the ability to channel any spells you cast through them, treating your mount as the point of origin for purposes of determining your spell’s range. When you are affected by a spell with a range of self, as long as you are mounted on your companion mount, you are both targeted by the spell.</p>
+    </description>
+  <sheet><description>Your magic flows through your companion like a raging river.</description></sheet></element>
+
+  <element name="Entwined Evolution" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_ENTWINED_EVOLUTION">
+    <description>
+      <p><em>10th-level Entwined Evolution feature</em></p>
+      <p>Choose one of the following traits to add to your companion mount’s stat block.</p>
+        <ul>
+            <li><strong>Bond of Brambles</strong> While the mount is within 5 feet of you and you are mounted on it or have assumed its form using Twin Beast Shape, terrain within 10 feet of your mount grows thick grasping brambles. Creatures hostile to you and your companions treat the brambles as difficult terrain and take 1d4 piercing damage for every 5 feet they travel within the brambles.</li>
+            <li><strong>Swift Skies, Swift Seas</strong> Your mount gains either a flying or swimming speed of 50 feet. You also gain this fly or swim speed when using your Twin Beast Shape.</li>
+            <li><strong>Twin Tactics</strong> Your mount has advantage on attacks against creatures within 5 feet of you while you are mounted on it or have assumed its form using Twin Beast Shape. You have advantage on attacks made against creatures within 5 feet of your mount while you have assumed its form using Twin Beast Shape. Neither you nor your mount can use this feature if the other is incapacitated.</li>
+        </ul>
+    </description>
+  <sheet><description>You and your companion mount learn new secrets from nature.</description></sheet></element>
+
+  <element name="Beast Stride" type="Archetype Feature" source="Custom Homebrew" id="ID_HOMEBREW_FEATURE_BEAST_STRIDE">
+    <description>
+      <p><em>14th-level Beast Stride feature</em></p>
+      <p>While you are within 1 mile of each other, you can communicate telepathically with each other. Additionally, while your mount is within 600 feet of you, you can teleport onto its back or have it teleport to your side as a bonus action. Once you’ve used this ability, you can’t use it again until you finish a short or long rest.</p>
+    </description>
+  <sheet><description>The bond between you and your mount is exceptionally strong, intertwining your souls.</description></sheet></element>
+</elements>
