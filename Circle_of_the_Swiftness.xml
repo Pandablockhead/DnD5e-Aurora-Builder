@@ -7,7 +7,7 @@
         </update>
     </info>
 
-  <element name="Circle of the Swiftness" type="Sub_Class" source="Homebrew: Fools Gold" id="ID_HOMEBREW_SUB_CLASS_CIRCLE_OF_THE_SWIFTNESS">
+  <element name="Circle of the Swiftness" type="Archetype" source="Homebrew: Fools Gold" id="ID_HOMEBREW_SUB_CLASS_CIRCLE_OF_THE_SWIFTNESS">
     <supports>Druid Circle</supports>
     <description>
       <p>The Circle of Swiftness was an ancient order of druids that was thought to be lost to time until a powerful druid named Gothi, the last surviving member of this circle, shared its teachings with other druids of Ambria and slowly revived the circle’s popularity. The circle’s teachings aim to deepen a druid’s bond with an animal companion by fighting together as one to protect the balance of nature.</p>
