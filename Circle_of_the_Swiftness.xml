@@ -35,24 +35,43 @@
 			    <p>You form a bond with a wild beast that becomes your companion mount. Your mount can take the form of any beast, but it uses the companion mount stat block, possibly altering its physical characteristics beyond the norms for a creature of its kind.</p>
 			    <p class="indent"><strong><em>Allies.</em></strong> Your mount is friendly to you and your companions, and it has its own distinct personality.</p>
 			    <p class="indent"><strong><em>Initiative.</em></strong> Shares your initiative count and takes its turn directly after yours.</p>
-			    <p class="indent"><strong><em>Combat Actions.</em></strong> It can only take the Dodge action and move unless you use your bonus action to command it to take a different action, such as attacking, hiding, or interacting with an object.</p>
-			    <p class="indent"><strong><em>Incapacitation.</em></strong> It can take any action of its choice, not just Dodge.</p>
+			    <p class="indent"><strong><em>Combat Actions.</em></strong> It can only take the Dodge action and move, <em>unless</em> you use your <strong>bonus action</strong> to command it to take a different action, such as attacking, hiding, or interacting with an object.</p>
+			    <p class="indent"><strong><em>Incapacitation.</em></strong> If you are incapacitated it can take any action of its choice, not just Dodge.</p>
 			    <p class="indent"><strong><em>Movement.</em></strong> As part of your movement each turn, you can spend half your movement speed to either mount or dismount your mount. While you are mounted, your companion mount acts on the same turn in initiative as you and can only move unless you direct it to take another action. You fall off your mount if you are incapacitated or knocked prone.</p>
 			    <p class="indent"><strong><em>Attack Redirection.</em></strong> you can redirect any attacks made against your mount to target you instead, and you can use your reaction to grant your mount advantage on Strength and Dexterity saving throws. Your mount can make death saving throws.</p>
-          <p class="indent"><strong><em>Mount Death.</em></strong> If your mount dies, you can bond with a new companion mount by performing an eight-hour ritual to commune with the spirit of another beast. Mounts can also be resurrected using magic such as revivify or Resurrection.</p>
-          <p class="indent"><strong><em>Resurrection.</em></strong> Cant have more than one companion mount.If you form a bond with a new companion mount, your bond with your current companion mount is broken.</p>
+          <p class="indent"><strong><em>Mount Death.</em></strong> If your mount dies, you can bond with a new companion mount by performing an 8-hour ritual to commune with the spirit of another beast. Mounts can also be resurrected using magic such as revivify or Resurrection.</p>
+          <p class="indent"><strong><em>Notes for Resurrection.</em></strong> Cant have more than one companion mount.If you form a bond with a new companion mount, your bond with your current companion mount is broken.</p>
       </description>
   <sheet><description>
           <p>You form a bond with a wild beast that becomes your companion mount.</p>
-			    <p class="indent"><strong><em>Allies.</em></strong> Your mount is friendly to you and your companions, and it has its own distinct personality.</p>
-			    <p class="indent"><strong><em>Initiative.</em></strong> Shares your initiative count and takes its turn directly after yours.</p>
-			    <p class="indent"><strong><em>Combat Actions.</em></strong> It can only take the Dodge action and move unless you use your bonus action to command it to take a different action, such as attacking, hiding, or interacting with an object.</p>
-			    <p class="indent"><strong><em>Incapacitation.</em></strong> It can take any action of its choice, not just Dodge.</p>
-			    <p class="indent"><strong><em>Movement.</em></strong> As part of your movement each turn, you can spend half your movement speed to either mount or dismount your mount. While you are mounted, your companion mount acts on the same turn in initiative as you and can only move unless you direct it to take another action. You fall off your mount if you are incapacitated or knocked prone.</p>
-			    <p class="indent"><strong><em>Attack Redirection.</em></strong> you can redirect any attacks made against your mount to target you instead, and you can use your reaction to grant your mount advantage on Strength and Dexterity saving throws. Your mount can make death saving throws.</p>
-          <p class="indent"><strong><em>Mount Death.</em></strong> If your mount dies, you can bond with a new companion mount by performing an eight-hour ritual to commune with the spirit of another beast. Mounts can also be resurrected using magic such as revivify or Resurrection.</p>
-          <p class="indent"><strong><em>Resurrection.</em></strong> Cant have more than one companion mount.If you form a bond with a new companion mount, your bond with your current companion mount is broken.</p>
-      </description></sheet></element>
+          <p>The Mount has the following features:</p>
+    			<ul>
+              <li>
+                  Allies - Your mount is friendly to you and your companions, and it has its own distinct personality
+              </li>
+              <li>
+                  Initiative - Shares your initiative count and takes its turn directly after yours
+              </li>
+              <li>
+                 Combat Actions - default actions are dodge and move, for everything else you need to use your bonus action to command it
+              </li>
+              <li>
+                  Incapacitation - If you are incapacitated it can take any action of its choice, not just Dodge
+              </li>
+              <li>
+                  Movement - can use half your movement each to mount or dismount, while mounted your turns act as one and you can only move, unless you use your bonus action for a command, fall off mount if incapacitated or knocked prone
+              </li>
+              <li>
+                  Attack Redirection - you can redirect attacks at your mount to yourself, with your reaction you can grant it advantage on STR and DEX saving throws, mount also can make death saves
+              </li>
+              <li>
+                  Mount Death - on mount death you can revive it with revivify or Resurrection, alternatively perform 8-hour ritual to bond with a new one
+              </li>
+              <li>
+                  Notes on Resurrection - Cant have more than one companion mount.If you form a bond with a new companion mount, your bond with your current companion mount is broken
+              </li>
+          </ul>
+</description></sheet></element>
 
   <!--Twin Beast Shape Feature-->
   <element name="Twin Beast Shape" type="Archetype Feature" source="Homebrew: Fools Gold" id="ID_HOMEBREW_FEATURE_TWIN_BEAST_SHAPE">
