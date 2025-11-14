@@ -77,25 +77,28 @@
         <ul>
             <li>
             <b>Bond of Brambles:</b>
+            </li>
             <p class="indent">While the mount is within 5 feet of you and you are mounted on
             it or have assumed its form using Twin Beast Shape, terrain
             within 10 feet of your mount grows thick grasping brambles.
             Creatures hostile to you and your companions treat the brambles
             as difficult terrain and take 1d4 piercing damage for every 5
-            feet they travel within the brambles.</p></li>
+            feet they travel within the brambles.</p>
             <li>
             <b>Swift Skies, Swift Seas:</b>
+            </li>
             <p class="indent">Your mount gains either a flying or swimming speed of 50 feet.
             You also gain this fly or swim speed when using your
-            Twin Beast Shape.</p></li>
+            Twin Beast Shape.</p>
             <li>
             <b>Twin Tactics:</b>
+            </li>
             <p class="indent">Your mount has advantage on attacks against creatures within
             5 feet of you while you are mounted on it or have assumed its form
             using Twin Beast Shape. You have advantage on attacks made against
             creatures within 5 feet of your mount while you have assumed
             its form using Twin Beast Shape. Neither you nor your mount can
-            use this feature if the other is incapacitated.</p></li>
+            use this feature if the other is incapacitated.</p>
         </ul>
     </description>
   <sheet><description>
